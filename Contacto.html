@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title data-traduccion="head">Contáctenos</title>
+        <link rel = "stylesheet" href="Estilos.css"/>
+	</head>
+    <body>
+
+    <select id="languageSelector">
+        <option value="es.form.json" selected>Español</option>
+        <option value="en.form.json">Inglés</option>
+    </select>
+
+    <h2 data-traduccion="h2_title" > Contáctenos </h2>
+    <section class="formulario">
+    <p data-traduccion= "p_info">
+        Para más información rellene el siguiente formulario y nos pondremos en contacto con usted.
+    </p>
+    </section>
+    <section class="formulario">
+    <form>
+        <legend><h5 data-traduccion= "form_legend">Datos personales</h5></legend>
+        <p>
+        <label for="name_id" data-traduccion="name">Nombre:</label><input type="text" id ="name_id" required/><br>
+        </p>
+        <p>
+        <label for="phone_id" data-traduccion="phone">Teléfono:</label><input type="tel" id ="phone_id" required/><br>
+        </p>
+        <p>
+        <label for="email_id" data-traduccion="email">Email:</label><input type="email" id ="email_id" required/><br>
+        </p>
+        <p>
+        <label for= "date_id" data-traduccion="fecha_nacimiento">Fecha de nacimiento:</label><input type="date" id ="date_id" required/><br>
+        </p>
+        <p>
+        <label for= "text_id" data-traduccion="form_comments_label">Comentarios:</label><br><textarea data-traduccion="form_comments_placeholder" placeholder="Máximo 220 caracteres" id ="text_id" maxlength="220"></textarea><br>
+        </p>
+        <p>
+        <a href="Enviado.html"><input data-traduccion="form_submit_button" type="button" value="OK"/></a>
+        </p>
+    </form>
+    </section>
+    
+</body>
+
+<script src="form.jsx" type="text/javascript"></script>
+</html>

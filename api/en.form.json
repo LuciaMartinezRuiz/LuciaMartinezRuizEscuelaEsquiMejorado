@@ -1,0 +1,13 @@
+{ 
+  "head": "Contact us",
+  "h2_title": "Contact us",
+  "p_info": "For more information, please fill out the following form and we will contact you.",
+  "form_legend": "Personal Information",
+  "name": "Name:",
+  "phone": "Phone number:",
+  "email": "Email:",
+  "fecha_nacimiento": "Birth date:",
+  "form_comments_label": "Comments:",
+  "form_comments_placeholder": "Maximum 220 characters",
+  "form_submit_button": "Submit"
+}
