@@ -1,0 +1,14 @@
+{
+    "head": "Contactez-nous",
+    "h2_title": "Contactez-nous",
+    "p_info": "Pour plus d'informations, veuillez remplir le formulaire suivant et nous vous contacterons.",
+    "form_legend": "Informations personnelles",
+    "name": "Nom:",
+    "phone": "Numéro de téléphone:",
+    "email": "Email:",
+    "fecha_nacimiento": "Date de naissance:",
+    "form_comments_label": "Commentaires:",
+    "form_comments_placeholder": "Maximum 220 caractères",
+    "form_submit_button": "Envoyer"
+}
+    

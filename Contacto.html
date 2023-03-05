@@ -7,20 +7,21 @@
 	</head>
     <body>
 
-    <select id="languageSelector">
-        <option value="es.form.json" selected>Español</option>
-        <option value="en.form.json">Inglés</option>
+    <select id="languageSelector"> <!-- Para el selector de idiomas hay que poner un id. De esta manera luego se le puede hacer referencia en javascript. -->
+        <option value="es.form.json" selected>Español</option>  <!--"es.form.json" hace referencia al json en español-->
+        <option value="en.form.json">English</option> <!--"en.form.json" hace referencia al json en inglés-->
+        <option value="fr.form.json">Français</option> <!--"fr.form.json" hace referencia al json en francés-->
     </select>
 
     <h2 data-traduccion="h2_title" > Contáctenos </h2>
     <section class="formulario">
-    <p data-traduccion= "p_info">
+    <p data-traduccion= "p_info"> <!--En cada elemento que se quiera traducir, hay que ponerle el mismo data-traduccion que se ha puesto en los json-->
         Para más información rellene el siguiente formulario y nos pondremos en contacto con usted.
     </p>
-    </section>
+    </section> 
     <section class="formulario">
     <form>
-        <legend><h5 data-traduccion= "form_legend">Datos personales</h5></legend>
+        <legend><h5 data-traduccion= "form_legend">Datos personales</h5></legend> <!--Lo mismo pasa con los elementos dentro del formulario, su data-traduccion tiene que coincidir con su correspondiente en los json-->
         <p>
         <label for="name_id" data-traduccion="name">Nombre:</label><input type="text" id ="name_id" required/><br>
         </p>
@@ -37,7 +38,7 @@
         <label for= "text_id" data-traduccion="form_comments_label">Comentarios:</label><br><textarea data-traduccion="form_comments_placeholder" placeholder="Máximo 220 caracteres" id ="text_id" maxlength="220"></textarea><br>
         </p>
         <p>
-        <a href="Enviado.html"><input data-traduccion="form_submit_button" type="button" value="OK"/></a>
+        <a href="Enviado.html"><button data-traduccion="form_submit_button" type="submit"></a>
         </p>
     </form>
     </section>
